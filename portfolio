@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Zobacz moje realizacje stron internetowych – projekty firm z różnych branż: nieruchomości, edukacji, rzemiosła, auto detailing. Profesjonalne strony WWW tworzone lokalnie w Swarzędzu."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="img/favicon_io/android-chrome-512x512.png"
+      type="image/png"
+    />
+    <title>
+      Portfolio – moje realizacje stron internetowych – projekty firm z różnych
+      branż
+    </title>
+  </head>
+  <body>
+    <nav class="navbar-non-transparent">
+      <div class="logo-container">
+        <a href="https://sobczykdesign.pl/"
+          ><img src="img/logo_czarne.webp" alt="Logo" class="logo"
+        /></a>
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links-non-transparent">
+        <a href="/o-mnie" class="nav-link-color">O mnie</a>
+        <a href="/oferta" class="nav-link-color">Oferta</a>
+        <a href="/blog" class="nav-link-color">Blog</a>
+        <a href="/portfolio" class="nav-link-color link-active">Realizacje</a>
+        <a href="/kontakt" class="nav-link-color">Kontakt</a>
+        <a href="/wycena" class="nav-btn">Wycena</a>
+      </div>
+    </nav>
+
+    <section class="portfolio">
+      <h1>
+        Moje realizacje stron internetowych – projekty które wyróżniają marki
+        online
+      </h1>
+      <div class="portfolio-row">
+        <div class="portfolio-item">
+          <div class="realization">
+            <img
+              src="img/Portfolio/DOMski broker_final.webp"
+              alt="Projekt strony internetowej dla DOMski broker z Poznania"
+              class="realization-img"
+            />
+          </div>
+          <div class="realization-description">
+            <h2>
+              Strona internetowa dla DOMski Broker – nowoczesny projekt wizualny
+            </h2>
+            <p>
+              Dla DOMski Broker, firmy specjalizującej się w sourcingu
+              nieruchomości i kompleksowej obsłudze inwestycyjnej, stworzyłem
+              nowoczesny projekt wizualny strony internetowej. Strona zawiera
+              intuicyjny układ sekcji, przejrzyste podstrony informacyjne oraz
+              formularz kontaktowy ułatwiający pierwszy krok do inwestycji.
+              Projekt podkreśla ekspertyzę i profesjonalne podejście firmy do
+              rynku nieruchomości.
+            </p>
+
+            <a href="/domskibroker" class="read-more-btn"
+              >Czytaj więcej<ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="realization-description">
+            <h2>Projekt strony WWW dla Policzone – korepetycje ze Swarzędza</h2>
+            <p>
+              Dla marki Policzone, oferującej korepetycje w Swarzędzu,
+              zaprojektowałem nowoczesną stronę internetową w stylu
+              ikonograficznym. Intuicyjna nawigacja, formularz kontaktowy oraz
+              wyraźne wezwanie do działania skutecznie zachęcają do umówienia
+              lekcji. Całość została utrzymana w przyjaznym i profesjonalnym
+              klimacie, idealnie dopasowanym do potrzeb uczniów i rodziców.
+            </p>
+
+            <a href="/policzone" class="read-more-btn"
+              >Czytaj więcej<ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+
+          <div class="realization">
+            <img
+              src="img/Portfolio/policzone_porfolio_final.webp"
+              alt="Projekt strony internetowej dla korepetytora ze Swarzędza"
+              class="realization-img"
+            />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="realization">
+            <img
+              src="img/Portfolio/Zygadlik_final.webp"
+              alt="Projekt strony internetowej dla Stolarnii Zygadlik w Rybnie Wielkim"
+              class="realization-img"
+            />
+          </div>
+          <div class="realization-description">
+            <h2>
+              Responsywna witryna dla Stolarni Zygadlik – design & tradycja
+            </h2>
+            <p>
+              Dla Stolarni Zygadlik zaprojektowałem stronę internetową w
+              ciepłej, "drewnianej" kolorystyce, która oddaje charakter
+              rzemieślniczej pracy. Nowoczesny, przejrzysty layout uzupełniony
+              subtelnymi animacjami tworzy elegancką prezentację oferty. Strona
+              w klarowny sposób opisuje zakres usług i eksponuje realizacje
+              klasycznych schodów, podkreślając jakość i tradycję wykonania.
+            </p>
+
+            <a href="/zygadlik-pl" class="read-more-btn"
+              >Czytaj więcej<ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="realization-description">
+            <h2>
+              Strona premium dla AKAuto Detailing – wysokiej jakości wizerunek
+              premium
+            </h2>
+            <p>
+              Dla AKAuto Detailing, serwisu specjalizującego się w
+              profesjonalnej pielęgnacji aut, stworzyłem elegancką stronę
+              internetową w czarno-złotej kolorystyce, która podkreśla prestiż i
+              jakość usług. Ofertę zaprezentowano w klasycznym układzie
+              kafelkowym, zintegrowanym z ciemną mapą dojazdu i przejrzystym
+              cennikiem. Całość tworzy spójny, nowoczesny wizerunek premium,
+              budzący zaufanie klientów szukających usług na najwyższym
+              poziomie.
+            </p>
+
+            <a href="#" class="read-more-btn"
+              >Czytaj więcej<ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+
+          <div class="realization">
+            <img
+              src="img//Portfolio/AKAuto-portfolio_final.webp"
+              alt="Strona www dla salonu detailingu AKAuto w Poznaniu"
+              class="realization-img"
+            />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="realization">
+            <img
+              src="img/Portfolio/autocentrum_madan_final.webp"
+              alt="Strona internetowa dla warsztatu Autocentrum Madan w Jasiniu"
+              class="realization-img"
+            />
+          </div>
+          <div class="realization-description">
+            <h2>Autocentrum Madan - strona internetowa</h2>
+            <p>
+              Dla Auto Centrum Madan przygotowałem nowoczesną stronę
+              internetową, która w czytelny sposób prezentuje zakres usług
+              warsztatu. Strona została zaprojektowana z myślą o wygodzie
+              użytkownika – zawiera wyraźne sekcje ofertowe i zachęcające
+              wezwania do działania, ułatwiające szybkie umówienie wizyty. To
+              praktyczne rozwiązanie wspierające lokalnych kierowców i
+              wzmacniające profesjonalny wizerunek firmy.
+            </p>
+
+            <a href="#" class="read-more-btn"
+              >Czytaj więcej<ion-icon name="arrow-forward-outline"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-content">
+        <div class="footer-column">
+          <img
+            src="img/logo_białe.webp"
+            class="logo-footer"
+            alt="Logo białe Sobczyk Design - strony internetowe i logo"
+          />
+          <p>
+            Strony internetowe, które wyróżniają się na tle konkurencji. Jesteś
+            zainteresowany współpracą? Zadzwoń lub Napisz teraz!
+          </p>
+        </div>
+        <div class="footer-column">
+          <p class="footer-header margin-bottom-small">Nawigacja</p>
+          <div class="footer-links">
+            <a href="/o-mnie" class="footer-link">O mnie</a>
+            <a href="/oferta" class="footer-link">Oferta</a>
+            <a href="/portfolio" class="footer-link">Realizacje</a>
+            <a href="/kontakt" class="footer-link">Kontakt</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <p class="footer-header margin-bottom-small">Oferta</p>
+          <div class="footer-links">
+            <a href="/oferta" class="footer-link">Strona wizytówka</a>
+            <a href="/oferta" class="footer-link">Strona firmowa</a>
+            <a href="/oferta" class="footer-link">Projekt logo</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <p class="footer-header margin-bottom-small">Kontakt</p>
+          <div class="footer-links">
+            <a href="mailto:hello@sobczykdesign.pl" class="footer-link"
+              ><ion-icon
+                name="mail-unread-outline"
+                class="footer-icon"
+              ></ion-icon>
+              hello@sobczykdesign.pl</a
+            >
+            <a href="tel:+48579638033" class="footer-link"
+              ><ion-icon name="call-outline" class="footer-icon"></ion-icon>
+              579638033</a
+            >
+            <div class="sm-bar">
+              <a href="#" class="footer-link"
+                ><ion-icon name="logo-facebook" class="footer-icon"></ion-icon
+              ></a>
+              <a href="#" class="footer-link"
+                ><ion-icon name="logo-whatsapp" class="footer-icon"></ion-icon
+              ></a>
+              <a href="#" class="footer-link"
+                ><ion-icon name="logo-instagram" class="footer-icon"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      function toggleMenu() {
+        const links = document.querySelector(".nav-links-non-transparent");
+        if (links) {
+          links.classList.toggle("show");
+        }
+      }
+    </script>
+  </body>
+</html>
